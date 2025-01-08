@@ -14,15 +14,22 @@ function ThemeButton() {
     }
   
     return (
-      <div className="sticky top-0 w-full p-4">
-        <div className='flex items-center justify-end flex-1'>
 
-          <Button variant={'outline'} size={'icon'} onClick={toggleTheme}>
-            {theme === 'dark' ? <Sun /> : <Moon />}
-          </Button>
+          <div className="relative top-0 w-full p-4">
+            <div className="h-18 container flex items-center">
 
-        </div>
-      </div>
+            <h1>Bill Manager</h1>
+            <p>Managing made easy.</p>
+            
+          <div className='flex items-center justify-end flex-1'>
+             
+            <Button variant={'outline'} size={'icon'} onClick={toggleTheme}>
+              {theme === 'dark' ? <Sun /> : <Moon />}
+            </Button>
+          </div> 
+          </div>
+
+          </div>
     )
 }
 

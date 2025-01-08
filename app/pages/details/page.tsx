@@ -48,12 +48,7 @@ function details() {
 
   return (
     <main className="p-4 sm:p-8 2xl:p-12"> 
-      
-      <div id="title" className='w-full'>
-        <h1> SOA Management System</h1>
-        <p>Managing made easy.</p>
-      </div>
-
+    
       <div id="tbl">
         <h3 className="pt-4">Pizza Hut Gen. Santos</h3>
         <p className="pt-0 pb-4">Cor. Santiago Blvd, San Miguel St.</p>

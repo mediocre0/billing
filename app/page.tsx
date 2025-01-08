@@ -7,11 +7,6 @@ import React from 'react'
 function Home() {
   return (
     <main className="p-4 sm:p-8 2xl:p-12"> 
-      
-      <div id="title" className='w-full'>
-        <h1> SOA Management System</h1>
-        <p>Managing made easy.</p>
-      </div>
 
       <div id="pending" className='mt-10 p-4'>
         <p>You have (1) unsettled statement of account.</p>
